@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Profile = (props) => {
     return (
         <div>  
-            <button type="button" class="btn btn-lg btn-success" onClick={()=>props.handleName(props.fullName)} >Alert user</button>
+            <button type="button" className="btn btn-lg btn-success" onClick={()=>props.handleName(props.fullName)} >Alert user</button>
             <p > <span>Full name:</span>  {props.fullName}</p>
             <p><span>Profession:</span> {props.profession}</p>
             <p><span>Bio:</span> {props.bio}</p>
